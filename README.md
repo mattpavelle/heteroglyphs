@@ -13,4 +13,8 @@ Confusables are particularly nasty for situations where a person needs to enter 
 
 In an effort to maximize the number of characters one can use and minimize human errors, here are the ASCII non-confusables, henceforth known as nonfusables.
 
-Thanks to the Unicode Consortium's [Confusable Utility](http://unicode.org/cldr/utility/confusables.jsp)
+Thanks to the Unicode Consortium:
+
+* [Technical Standard #39](http://www.unicode.org/reports/tr39/)
+* [Confusable Utility](http://unicode.org/cldr/utility/confusables.jsp)
+* [confusables.txt](http://www.unicode.org/Public/security/latest/confusables.txt)
