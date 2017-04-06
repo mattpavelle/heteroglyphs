@@ -1,7 +1,7 @@
 # heteroglyphs
 A list and some code for non-confusable non-homoglyphs for use when humans need to enter unique codes.
 
-Homoglyphs or Confusables are characters that look similar though the similarity may depend on the typeface.
+Homoglyphs, also known as homographs or confusables, are characters that look similar though the similarity may depend on the typeface.
 
 Some examples:
 
