@@ -1,17 +1,45 @@
 # heteroglyphs
-A list and some code for non-confusable non-homoglyphs for use when humans need to enter unique codes.
 
-Homoglyphs, also known as homographs or confusables, are characters that look similar though the similarity may depend on the typeface.
+A list of (and some sample code for) non-confusable/non-homoglyphs - i.e. characters appropriate for use when humans need to manually enter ASCII codes and you don't want them using confusing similar looking letters.
 
-Some examples:
+In an effort to maximize the number of characters one can use and minimize human errors, here are the ASCII non-confusables, henceforth known as heteroglyphs (similarity will change based on the typeface).
 
-* 0/O
-* 1/l/I
-* A/Ａ (the second character looking like an ASCII 'a' is actually a unicode Latin Ａ)
+## Single character ASCII confusables/homographs:
 
-Confusables are particularly nasty for situations where a person needs to enter a product code (think: Windows serial numbers).
+* b ⇔ 6
+* B ⇔ 8
+* G ⇔ 6
+* g ⇔ 9
+* g ⇔ q
+* L, l ⇔ I, 1
+* O, o ⇔ 0
+* S, s ⇔ 5
+* V, v ⇔ U, u
+* Z, z ⇔ 2
 
-In an effort to maximize the number of characters one can use and minimize human errors, here are the ASCII non-confusables, henceforth known as nonfusables.
+## Multi-character ASCII confusables/homographs:
+
+* a ⇔ ci
+* A ⇔ fi
+* B ⇔ l3
+* d ⇔ cl
+* g ⇔ cj
+* m ⇔ rn
+* W ⇔ VV
+
+I we want to prevent most of the multi-character homographs from being possible, we can limit ourselves to upper case letters and numbers and end up with a list of 19 possible characters in upper case (0125689BGILOSUVWZ are banned):
+
+`347ACDEFHJKMNPQRTXY`
+
+Alternately we can follow the Microsoft permitted character licensing scheme, then we have a list of 24 characters (015AEILNOSUZ are banned):
+
+`2346789BCDFGHJKMPQRTVWXY` (note, some obvious confusables exist here such as B/8 and G/6)
+
+### Footnote
+
+This whole codebase requires about 3 minutes of coding. But it also requires a few hours of research and as I've done this three times over the years so far, I decided to just save it to a repo.
+
+-----
 
 Thanks to the Unicode Consortium:
 
