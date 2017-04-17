@@ -31,6 +31,10 @@ I we want to prevent most of the multi-character homographs from being possible,
 
 `347ACDEFHJKMNPQRTXY`
 
+Realistically we should also exclude vowels to prevent us from accidentally generating offensive words, so let's trim this down to the following 17 characters:
+
+`347CDFHJKMNPQRTXY`
+
 Alternately we can follow the Microsoft permitted character licensing scheme, then we have a list of 24 characters (015AEILNOSUZ are banned):
 
 `2346789BCDFGHJKMPQRTVWXY` (note, some obvious confusables exist here such as B/8 and G/6)

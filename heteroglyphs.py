@@ -6,8 +6,7 @@ See: https://github.com/mattpavelle/heteroglyphs/blob/master/README.md
 import random
 
 # heteroglyph_upper = `347ACDEFHJKMNPQRTXY`
-hgu = ['3', '4', '7', 'A', 'C', 'D', 'E', 'F', 'H', 'J', 'K', 'M', 'N', 'P', 'Q', 'R', 'T', 'X',
-       'Y']
+hgu = ['3', '4', '7', 'C', 'D', 'F', 'H', 'J', 'K', 'M', 'N', 'P', 'Q', 'R', 'T', 'X', 'Y']
 # heteroglyph_msft = `2346789BCDFGHJKMPQRTVWXY`
 hgm = ['2', '3', '4', '6', '7', '8', '9', 'B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'M', 'P', 'Q',
        'R', 'T', 'V', 'W', 'X', 'Y']
